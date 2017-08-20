@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyberpatriots</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="/js/gen_validatorv4.js" type="text/javascript"></script>
+    <!-- <script src="/js/Members.js" type="text/javascript"></script> -->
+</head>
+</head>
+<body class="landing">
+    <section class = "The logo">
+        <a href="index.html" class="logo">
+            <img src="images/cyberpatriots_logo.png" alt="cyberpatriots logo">
+        </a>
+    </section>
+    <h1>Welcome to Set High School CyberpatriotsTeam</h1>
+    <!-- <form novalidate action="" id="frmMemberSignUp"> -->
+    <form action="" id="frmMemberSignUp">
+        <div class="container" >
+            <div class="Student-Info" width="100%" >
+                <div class="student-name"  width="100%" style="display: table-row;">
+                    <div class="cell" width="25%"  style="display: table-cell;" >
+                        <label class="required" ><b>First Name</b></label>
+                    </div>
+                    <div class="cell" width="25%"  style="display: table-cell;" >
+                        <input type="text" placeholder="First Name" name="sfFirst"  id="sfName"  required>
+                        <!-- <p class="errorSF"></p> -->
+                    </div>
+                    <div class="cell" width="25%" style="display: table-cell;">
+                        <label class="required"><b>Last Name</b></label>
+                    </div>
+                    <div class="cell" width="25%" style="display: table-cell;">
+                        <input type="text" placeholder=" Last Name" name="slName" id="slName"  required>
+                        <!-- <p class="errorSL"></p> -->
+                    </div>
+                </div>
+                <div class="student-contact"  width="100%" style="display: table-row;">
+                    <div class = "cell" width="25%" style="display: table-cell;">
+                        <label class="required"><b>Phone</b></label>
+                    </div>
+                    <div  class = "cell" width="25%" style="display: table-cell;">
+                        <input type="text" placeholder="xxx-xxx-xxxx" name="sPhone" id="sPhone"  pattern = "tel" required>
+                        <!-- <p class="errorSP"></p> -->
+                    </div>
+                    <div class="cell" width = "25%" style="display: table-cell;">
+                        <label class="required" display=table-cell><b>Email</b></label>
+                    </div>
+                    <div class="cell" width="25%"style="display: table-cell;">
+                        <input type="text" placeholder="user@mail.com" name="sEmail" id="sEmail" required>
+                        <!-- <p class="errorSE"></p> -->
+                    </div>
+                </div>
+            </div>
+        <br>
+        <div class="parent1-info" width="100%">
+            <div class="parent1-name"  width="100%" style="display: table-row;">
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <label class="required"><b>Parent 1 First Name</b></label>
+                </div>
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <input type="text" placeholder="First Name" name="p1fName"  id="p1fName" required>
+                </div>
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <label class="required"><b>Parent 1 Last Name</b></label>
+                </div>
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <input type="text" placeholder="Last Name" name="p1lName"  id="p1lName" required>
+                </div>
+            </div>
+            <div class="parent1-contact" width="100%" style="display: table-row;">
+                <div class = "cell" width="25%" style="display: table-cell;">
+                    <label class="required"><b>Parent 1 Phone</b></label>
+                </div>
+                <div class = "cell" width = "25%" style="display: table-cell;">
+                    <input type="text" placeholder="xxx-xxx-xxxx" name="p1Phone" id="p1Phone" required>
+                </div>
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <label class="required"><b>Parent 1 Email</b></label>
+                </div>
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <input type="text" placeholder="user@mail.com" name="p1Email"  id="p1Email" required>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="parent2-info" width="100%">
+            <div class="parent2-name" width="100%" style="display: table-row;">
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <label><b>Parent 2 First Name</b></label>
+                </div>
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <input type="text" placeholder="First Name" name="p2fName" id="p2fName" >
+                </div>
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <label><b>Parent 2 Last Name</b></label>
+                </div>
+                <div class="parent2-lastinput" width="25%" style="display: table-cell;">
+                    <input type="text" placeholder="Last Name" name="p2lName"  id="p2lName">
+                </div>
+            </div>
+            <div class="parent2-contact"   width="100%" style="display: table-row;">
+                <div  class = "cell" width="25%" style="display: table-cell;">
+                    <label><b>Parent 2 Phone</b></label>
+                </div>
+                <div class = "cell" width = "25%" style="display: table-cell;">
+                    <input type="text" placeholder="xxx-xxx-xxxx" name="p2Phone" id="p2Phone">
+                </div>
+                <div class="cell" width="25%" style="display: table-cell;">
+                    <label><b>Parent 2 Email</b></label>
+                </div>
+                <div class="cell" width="25%" style="display: table-cell;" >
+                    <input type="text" placeholder=" user@mail.com" name="p2Email"  id="p2Email">
+                </div>
+            </div>
+            <br>
+            <div class="clearfix">
+                <input type="button" class="button" onclick="submitAction()" value="Add">
+                <!-- <input type="submit" > -->
+                <input type="button"  class="button" value="Reset" onclick="resetAction()">
+            </div>
+    </div>
+</div>
+</form>
+<br>
+
+<table style="width:100%" class="memberTable" border="1" id="memberTable">
+    <tr>
+        <th>Delete</th>
+        <th>Student First Name</th>
+        <th>Student Last Name</th>
+        <th>Student Phone</th>
+        <th>Student Email</th>
+        <th>Parent1 First Name</th>
+        <th>Parent1 Last Name</th>
+        <th>Parent1 Phone</th>
+        <th>Parent1 Email</th>
+        <th>Parent2 First Name</th>
+        <th>Parent2 Last Name</th>
+        <th>Parent2 Phone</th>
+        <th>Parent2 Email</th>
+    </tr>
+</table>
+<br>
+<div class="clearfix">
+    <input value="Export as CSV" type="button"  class = "button" onclick="table2CSV()">
+</div>
+
+<!-- <script type="text/javascript">
+var frmvalidator  = new Validator("frmMemberSignUp");
+
+frmvalidator.addValidation("sfName","req","Please enter your First Name");
+frmvalidator.addValidation("slName","req");
+frmvalidator.addValidation("sPhone","req");
+frmvalidator.addValidation("sPhone","numeric");
+frmvalidator.addValidation("sEmail","email");
+frmvalidator.addValidation("sEmail","req");
+
+ </script> -->
+
+
+<script type="text/javascript">
+   function submitAction() {
+       var theForm = document.getElementById('frmMemberSignUp');
+
+      var table = document.getElementById("memberTable");
+      var tableSize = table.length;
+      var row = table.insertRow(tableSize);
+
+      var deleteBtn =  row.insertCell(0);
+      var studentFirstNameCell = row.insertCell(1);
+      var studentLastNameCell = row.insertCell(2);
+      var studentPhoneCell = row.insertCell(3);
+      var studentEmailCell = row.insertCell(4);
+
+      var parent1FirstNameCell = row.insertCell(5);
+      var parent1LastNameCell = row.insertCell(6);
+      var  parent1PhoneCell = row.insertCell(7);
+      var  parent1EmailCell = row.insertCell(8);
+
+      var parent2FirstNameCell = row.insertCell(9);
+      var parent2LastNameCell = row.insertCell(10);
+      var  parent2PhoneCell = row.insertCell(11);
+      var  parent2EmailCell = row.insertCell(12);
+
+      deleteBtn.innerHTML =  '<button class="delete-btn" type="button" onclick="deleteRowAction(this)";> Delete</button>';
+      studentFirstNameCell.innerHTML = document.getElementById("sfName").value;
+      studentLastNameCell.innerHTML =  document.getElementById("slName").value;
+      studentPhoneCell.innerHTML = document.getElementById("sPhone").value;
+      studentEmailCell.innerHTML = document.getElementById("sEmail").value;
+
+      parent1FirstNameCell.innerHTML = document.getElementById("p1fName").value;
+      parent1LastNameCell.innerHTML = document.getElementById("p1lName").value;
+      parent1PhoneCell.innerHTML = document.getElementById("p1Phone").value;
+      parent1EmailCell.innerHTML = document.getElementById("p1Email").value;
+
+      parent2FirstNameCell.innerHTML = document.getElementById("p2fName").value;
+      parent2LastNameCell.innerHTML = document.getElementById("p2lName").value;
+      parent2PhoneCell.innerHTML = document.getElementById("p2Phone").value;
+      parent2EmailCell.innerHTML = document.getElementById("p2Email").value;
+    return true;
+    }
+ </script>
+
+ <script type="text/javascript">
+ function resetAction() {
+     document.getElementById("frmMemberSignUp").reset();
+     return true;
+ }
+ </script>
+
+<script type="text/javascript">
+function deleteRowAction(btnDel) {
+    btnDel.closest("tr").remove();
+    return true;
+}
+</script>
+
+<script type="text/javascript">
+function downloadCSV(csv, filename) {
+    var csvFile;
+    var downloadLink;
+
+    // CSV file
+    csvFile = new Blob([csv], {type: "text/csv"});
+
+    // Download link
+    downloadLink = document.createElement("a");
+
+    // File name
+    downloadLink.download = filename;
+
+    // Create a link to the file
+    downloadLink.href = window.URL.createObjectURL(csvFile);
+
+    // Hide download link
+    downloadLink.style.display = "none";
+
+    // Add the link to DOM
+    document.body.appendChild(downloadLink);
+
+    // Click download link
+    downloadLink.click();
+}
+
+function table2CSV(){
+    var csv = [];
+    var filename ="CyberPatriotsRoster.csv";
+    var rows = document.querySelectorAll("table tr");
+
+    for (var i = 0; i < rows.length; i++) {
+        var row = [], cols = rows[i].querySelectorAll("td, th");
+
+        for (var j = 0; j < cols.length; j++)
+            row.push(cols[j].innerText);
+
+        csv.push(row.join(","));
+    }
+
+    // Download CSV file
+    downloadCSV(csv.join("\n"), filename);
+}
+</script>
+
+</body>
+ </html>

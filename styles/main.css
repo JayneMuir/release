@@ -1,0 +1,112 @@
+/* Full-width input fields */
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+nput[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+nput[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.required:after {
+    color:red;
+    content: '*';
+}
+
+/* Set a style for all buttons
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+*/
+.Student-Info,.parent1-info,.parent2-info
+{
+    display:table;
+    border-collapse: collapse;
+    separate;
+    border-spacing:5px;
+}
+
+.cell
+ {
+     padding:15px;
+ }
+
+
+/* Float cancel and signup buttons and add an equal width */
+.resetbtn,.signupbtn {
+    width:45%;
+}
+
+.button {
+    wdith:45%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    display:inline;
+}
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+    border-style: groove;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*.errorSF, .errorSl, .errorSP, .errorSE {
+    display: none;
+    color: red;
+    font-weight: bold;
+ }
+ .submitted :invalid + .errorSF { display: block; } + .errorSL { display: block; } + .errorSP { display: block; } + .errorSE .errorSP { display: block; }
+ .submitted :invalid { border: 1px solid red; }*/
+/*:invalid {
+    box-shadow: none;
+    outline: 0;
+    border-color: red;
+    border-style: dashed;
+}*/
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .resetbtn, .signupbtn {
+        width: 100%;
+    }
+}
